@@ -3,7 +3,16 @@
         "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
+    <definition name="default" template="/tiles/layout/index.jsp">
+        <put-attribute name="body" value="/tiles/view/default.jsp"/>
+    </definition>
     <definition name="car" template="/tiles/layout/index.jsp">
         <put-attribute name="body" value="/tiles/view/body.jsp"/>
+    </definition>
+    <definition name="login" template="/tiles/layout/index.jsp">
+        <put-attribute name="body" value="/tiles/view/login.jsp"/>
+    </definition>
+    <definition name="need-login-page" template="/tiles/layout/index.jsp">
+        <put-attribute name="body" value="/tiles/view/need-login-page.jsp"/>
     </definition>
 </tiles-definitions>

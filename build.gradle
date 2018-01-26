@@ -27,6 +27,7 @@ targetCompatibility = 1.8
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'org.springframework.boot:spring-boot-starter-security'
 
     providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
     providedCompile 'org.apache.tomcat.embed:tomcat-embed-jasper'
