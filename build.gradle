@@ -26,12 +26,17 @@ targetCompatibility = 1.8
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
     providedCompile 'org.apache.tomcat.embed:tomcat-embed-jasper'
 
     compile 'javax.servlet:jstl:1.2'
     compile 'org.apache.tiles:tiles-jsp:3.0.8'
+
+    compile "org.flywaydb:flyway-core:5.0.6"
+
+    compile 'mysql:mysql-connector-java'
 
     testCompile("junit:junit")
 }

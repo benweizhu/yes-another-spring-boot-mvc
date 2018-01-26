@@ -1,0 +1,1 @@
+INSERT INTO TICKET VALUES (1, '变形金刚');
