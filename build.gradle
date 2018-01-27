@@ -10,6 +10,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'idea'
+apply plugin: 'application'
 apply plugin: 'org.springframework.boot'
 
 jar {
@@ -41,3 +42,7 @@ dependencies {
 
     testCompile("junit:junit")
 }
+
+applicationDefaultJvmArgs = [
+        "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9999"
+]
