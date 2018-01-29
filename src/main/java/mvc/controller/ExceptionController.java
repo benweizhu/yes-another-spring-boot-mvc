@@ -1,5 +1,6 @@
 package mvc.controller;
 
+import mvc.exception.MyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,4 +14,9 @@ public class ExceptionController {
         throw new Exception("throw an exception");
     }
 
+
+    @RequestMapping(value = "/throw-my-exception", method = GET)
+    public String throwMyException() throws Exception {
+        throw new MyException("throw my exception");
+    }
 }
