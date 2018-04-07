@@ -15,6 +15,6 @@ public class WebErrorViewResolver implements ErrorViewResolver {
         if(status.equals(HttpStatus.NOT_FOUND)) {
             return new ModelAndView("404");
         }
-        return new ModelAndView("error");
+        return new ModelAndView("500");
     }
 }

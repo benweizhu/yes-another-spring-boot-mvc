@@ -5,6 +5,6 @@
     <title>another spring boot mvc</title>
 </head>
 <body>
-<h1 style="color: red">This is 404 page.</h1>
+<h1 style="color: red">This is error page.</h1>
 </body>
 </html>

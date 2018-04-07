@@ -25,12 +25,11 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
     compile 'org.springframework.boot:spring-boot-starter-security'
     compile 'org.springframework.boot:spring-boot-starter-actuator'
-
-    testCompile 'org.springframework.boot:spring-boot-starter-test'
-
+    compile 'org.springframework.boot:spring-boot-devtools'
 
     providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
     providedCompile 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
 
     compile 'javax.servlet:jstl:1.2'
     compile 'org.apache.tiles:tiles-jsp:3.0.8'

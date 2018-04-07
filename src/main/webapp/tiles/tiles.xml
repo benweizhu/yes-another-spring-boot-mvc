@@ -15,6 +15,6 @@
     <definition name="need-login-page" template="/tiles/layout/index.jsp">
         <put-attribute name="body" value="/tiles/view/need-login-page.jsp"/>
     </definition>
-    <definition name="error" template="/tiles/layout/error.jsp"/>
+    <definition name="500" template="/tiles/layout/500.jsp"/>
     <definition name="404" template="/tiles/layout/404.jsp"/>
 </tiles-definitions>
